@@ -1,0 +1,22 @@
+.element {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  width: 10rem;
+  display: block;
+  margin: 1rem;
+}
+
+.theQuiz {
+  width: 50rem;
+  height: 30rem;
+  border: 2px solid darkcyan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
