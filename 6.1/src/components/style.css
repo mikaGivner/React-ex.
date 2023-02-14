@@ -1,0 +1,7 @@
+.wrapper {
+  display: flex;
+}
+button {
+  height: 1.5rem;
+  margin: 1rem;
+}
