@@ -1,0 +1,38 @@
+.red,
+.blue,
+.green,
+.yellow,
+.purple {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.red {
+  background: red;
+}
+.blue {
+  background: blue;
+}
+.green {
+  background: green;
+}
+.yellow {
+  background: yellow;
+}
+.purple {
+  background: purple;
+}
+.kids,
+h1 {
+  display: flex;
+
+  justify-content: center;
+}
+
+.kid {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
