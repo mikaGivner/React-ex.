@@ -1,0 +1,14 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-dir {
+  flex-direction: column;
+}
+/* .box4 {
+  width: 20rem;
+  height: 8rem;
+  background-color: purple;
+  margin: 2rem;
+} */
