@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+  color: black;
+}
+.product {
+  color: brown;
+}
+
+.product:hover {
+  opacity: 0.7;
+}
