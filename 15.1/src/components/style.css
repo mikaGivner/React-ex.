@@ -9,3 +9,27 @@
 .product:hover {
   opacity: 0.7;
 }
+ul {
+  width: 100vw;
+  height: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(217, 176, 127);
+  flex-wrap: wrap;
+}
+li {
+  color: #000;
+  list-style: none;
+  color: black;
+  margin: 0 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+li:hover {
+  opacity: 0.7;
+}
+
+.link.active {
+  color: red;
+}

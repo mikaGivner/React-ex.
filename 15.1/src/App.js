@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./components/Home";
 import Products from "./components/Products";
+
 import Product1 from "./components/Product1";
 import Product2 from "./components/Product2";
 import Product3 from "./components/Product3";

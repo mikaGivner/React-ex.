@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./style.css";
 import Data from "./Store";
 import styled from "styled-components";
-
+import Header from "./Header";
 export default function Products() {
   const Card = styled.div`
     width: 20rem;
@@ -37,14 +37,15 @@ export default function Products() {
 
   return (
     <div>
-      <ul>
+      {/* <ul>
         <li>
           <Link className="link" to="/">
             Home
           </Link>{" "}
         </li>
         <li style={{ color: "red" }}>Products</li>
-      </ul>
+      </ul> */}
+      <Header />
       <ProductsPageWrapper>
         <h1>our Products</h1>
         <ProductsWrapper>

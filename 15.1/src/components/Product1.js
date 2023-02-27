@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Data from "./Store";
 import styled from "styled-components";
+import Header from "./Header";
 export default function Product1() {
   const Card = styled.div`
     width: 20rem;
@@ -21,16 +22,19 @@ export default function Product1() {
     align-items: center;
   `;
   return (
-    <ProductsPageWrapper>
-      <Card key={Data[0].id}>
-        <h2>{Data[0].title}</h2>
-        <Photo src={Data[0].imageUrl} alt="pic" />
-        <p>price: {Data[0].price}</p>
-        <p>size:{Data[0].size}</p>
-      </Card>
-      <Link className="link" to="/products">
-        Back
-      </Link>
-    </ProductsPageWrapper>
+    <div>
+      <Header />
+      <ProductsPageWrapper>
+        <Card key={Data[0].id}>
+          <h2>{Data[0].title}</h2>
+          <Photo src={Data[0].imageUrl} alt="pic" />
+          <p>price: {Data[0].price}</p>
+          <p>size:{Data[0].size}</p>
+        </Card>
+        <Link className="link" to="/products">
+          Back
+        </Link>
+      </ProductsPageWrapper>
+    </div>
   );
 }
